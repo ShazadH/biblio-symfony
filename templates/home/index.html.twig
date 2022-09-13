@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!
+{% endblock %}
+
+{% block body %}
+
+
+	{{ dump(livres) }}
+
+	<div class="card-deck">
+		{% for livre in livres %}
+			{{ include("livre/vignette.html.twig") }}
+		{% endfor %}
+
+	</div>
+{% endblock %}

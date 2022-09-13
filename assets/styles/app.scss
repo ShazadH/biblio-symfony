@@ -1,0 +1,21 @@
+$primary: dodgerblue;
+$secondary: tomato;
+$third: gold;
+
+
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+    background-color: #AEB6BF;
+}
+
+h1 {
+    color: $third;
+}
+
+// .vignette {
+//     height: 100px;
+//     width: auto;
+// }

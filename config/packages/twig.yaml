@@ -1,5 +1,13 @@
 twig:
-    default_path: '%kernel.project_dir%/templates'
+    default_path: "%kernel.project_dir%/templates"
+    form_theme: ["bootstrap_5_layout.html.twig"] #pour définir la façon dont les formulaires vont être stylisés
+    #variables globales
+    globals:
+        images_path: "/images/"
+
+    #on peut définir le format de date par défaut(qui sera utilisé par le filtre date)
+    date:
+        format: d/m/Y
 
 when@test:
     twig:
